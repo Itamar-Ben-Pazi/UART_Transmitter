@@ -9,10 +9,10 @@ The design is split into two main logical blocks:
 2. **FSM (Finite State Machine):** Handles the transmission protocol directly, transitioning between IDLE, START, DATA, and STOP states based on the baud tick.
 
 ### FSM Diagram
-![FSM Diagram](UART_Diagram.jpg)
+![FSM Diagram](docs/UART_Diagram.jpg)
 
 ## Simulation & Verification
 The module was verified using a Verilog testbench. The simulation confirms correct bit-timing, state transitions, and expected behavior on the `tx` line.
 
 ### Waveforms
-![Waveforms](wave.png)
+![Waveforms](docs/wave.png)
